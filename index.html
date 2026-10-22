@@ -1,0 +1,74 @@
+c
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Toggle Navigation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">Dev<span>Nav.</span></a>
+
+    <button class="menu-toggle"
+      id="menuToggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="nav-button">Get Started</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tag">WELCOME TO DEVNAV</p>
+        <h1>Navigation made <span>simple.</span></h1>
+        <p class="description">
+          A modern, responsive navigation menu built with
+          HTML, CSS and JavaScript.
+        </p>
+        <a href="#about" class="hero-button">Explore More →</a>
+      </div>
+      <div class="hero-card">
+        <div class="card-icon">☰</div>
+        <h2>Smart Navigation</h2>
+        <p>Smooth animations. Clean design. Every device.</p>
+      </div>
+    </section>
+
+    <section class="info-section" id="about">
+      <h2>About This Project</h2>
+      <p>A simple and interactive navigation menu for modern websites.</p>
+    </section>
+
+    <section class="info-section alternate" id="services">
+      <h2>Our Services</h2>
+      <p>Responsive websites, modern interfaces and smooth animations.</p>
+    </section>
+
+    <section class="info-section" id="contact">
+      <h2>Contact Us</h2>
+      <p>Thanks for exploring the Dynamic Toggle Navigation project!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 DevNav. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+</body>
+</html>
